@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    font-family: Montserrat, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav{
+    background-color: #ffa600;
+    background-image: url('https://www.transparenttextures.com/patterns/brilliant.png');
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+    width: 500px;
+}
+
+nav, h1 {
+    text-align: center;
+    font-family: Montserrat, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #1e1e1e;
+    background-image: url('https://www.transparenttextures.com/patterns/cross-stripes.png');
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+main {
+    width: 500px;
+    height: 770px;
+    background-color: rgb(255, 255, 255);
+    background-image: url('https://www.transparenttextures.com/patterns/climpek.png');
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+main img {
+    align-self: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: Montserrat, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+ul li{
+    text-align: left;
+    padding-left: 70px;
+}
+
+ol li{
+    text-align: left;
+    width: 450px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+footer {
+    width: 500px;
+    height: 50px;
+    background-color: #ffa600;
+    background-image: url('https://www.transparenttextures.com/patterns/brilliant.png');
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+.footer-button {
+    background-color: #1e1e1e;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 60px; 
+    width: 100%; 
+    margin: 0; 
+    padding: 0; 
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.footer-button:hover {
+    background-color: #292929;
+}
